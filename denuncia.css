@@ -1,0 +1,98 @@
+
+/* denuncia.css */
+
+/* Reset básico */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: ;
+    background-color: #f5f2ef;
+    color: #00274d;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #00274d;
+}
+
+.logo img {
+    height: 110px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00274d;
+    font-weight: 500;
+}
+
+/* Main content */
+main {
+    padding: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text {
+    flex: 2;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image, .text {
+        max-width: 100%;
+    }
+
+    .text h1 {
+        font-size: 36px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+}

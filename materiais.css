@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* tom suave */
+    color: #00274d;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #00274d;
+}
+
+.logo img {
+    height: 110px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00274d;
+    font-weight: 500;
+}
+
+/* Título centralizado */
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+/* Layout da seção principal */
+.materiais-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ajusta o conteúdo para o centro */
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+/* Texto centralizado */
+.texto {
+    flex: 2;
+    font-size: 23px;
+    line-height: 1.7;
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    max-width: 800px; /* Limita a largura máxima do texto */
+}
+
+.texto ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.texto ul li {
+    margin-bottom: 10px;
+}
+
+

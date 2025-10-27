@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f9f7f4;
+    color: #00274d;
+}
+
+/* Cabeçalho igual */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #00274d;
+}
+
+.logo img {
+    height: 110px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00274d;
+    font-weight: 500;
+}
+
+/* Título centralizado */
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+/* Layout do conteúdo */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.imagem {
+    max-width: 600px;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 400px;
+}
